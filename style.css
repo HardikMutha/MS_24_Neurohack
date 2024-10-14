@@ -441,6 +441,12 @@ body.no-scroll {
   .sub-header-content p {
     font-size: 1.1rem;
   }
+  .technical-details-content ol {
+    width: 82%;
+  }
+  .technical-deliverables ul {
+    width: 82%;
+  }
 }
 
 @media screen and (max-width: 420px) {
