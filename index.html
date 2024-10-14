@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neuro-Hack</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Background  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+      type="text/javascript"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <!-- navbar -->
+    <script defer src="./scripts/navbar.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="vanta-canvas"></div>
+    <button id="back">←</button>
+    <!-- Navbar starts here -->
+    <a href="https://mind-spark.org/" class="msLink">
+      <img
+        src="./assets/images/logo.ico"
+        alt="Mindspark"
+        class="navbar-icon nav-elements"
+      />
+    </a>
+    <input
+      type="checkbox"
+      id="navi-toggle"
+      style="display: none"
+      class="checkbox"
+    />
+    <label for="navi-toggle" class="button nav-elements">
+      <span class="icon">&nbsp;</span>
+    </label>
+    <div class="background nav-elements">&nbsp;</div>
+    <nav class="nav nav-elements">
+      <ul class="list">
+        <li class="item"><a href="/gallery" class="link">Gallery</a></li>
+        <li class="item">
+          <a href="/genius-junior" class="link">Genius Junior</a>
+        </li>
+        <li class="item"><a href="/paakhi" class="link">Paakhi</a></li>
+        <li class="item">
+          <a href="/hackathon" class="link">Hackathon 8.0</a>
+        </li>
+        <li class="item">
+          <a href="/pixelverse" class="link">KRAFTON Pixelverse</a>
+        </li>
+        <li class="item"><a href="/events" class="link">Events</a></li>
+        <li class="item"><a href="/teams" class="link">Team</a></li>
+        <li class="item"><a href="/legals" class="link">Legals</a></li>
+        <li class="item">
+          <a href="/campus-ambassador" class="link">Campus Ambassadors</a>
+        </li>
+        <li class="item"><a href="/sponsers" class="link">Sponsors</a></li>
+        <li class="item"><a href="/about-us" class="link">About Us</a></li>
+        <li class="item"><a href="/workshops" class="link">Workshops</a></li>
+      </ul>
+    </nav>
+    <!-- Navbar ends here -->
+    <div class="logo-container">
+      <img id="main-logo" src="./assets/images/header-logo.png" />
+    </div>
+    <div class="sub-header">
+      <div class="logo-image">
+        <img src="./assets/images/Neurohack.svg" alt="Neuro-Hack" />
+      </div>
+      <div class="sub-header-content">
+        <h3>NeuroHack</h3>
+        <p>
+          Collaborate with fellow innovators to tackle challenges at the
+          intersection of technology and the human intellignece. Together, let's
+          unlock new possibilities and revolutionize how we understand and
+          enhance our cognitive experiences !!
+        </p>
+        <div class=".btn-container">
+          <button class="reg-btn">
+            <a
+              href="https://unstop.com/competitions/lt-neurohack-coep-mindspark-1177482?lb=NNlJdAID"
+            >
+              REGISTER</a
+            >
+          </button>
+          <button
+            class="reg-btn"
+            onclick="()=>{
+              event.preventDefault()
+              navigator.clipboard.writeText(`unstop.com/competitions/lt-neurohack-coep-mindspark-1177482?lb=NNlJdAID`);
+              alert('URL copied to Cliboard');
+          }"
+            id="copyButton"
+          >
+            <a>SHARE</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="header-cards">
+      <a
+        href="https://maps.app.goo.gl/nAPqZ89eNxpzrWav7"
+        style="text-decoration: none"
+        target="_blank"
+      >
+        <div class="header-card">
+          <img src="./assets/images/loction-mark.svg" />
+          <p>COEP Tech, Pune</p>
+          <span style="font-size: 0.8rem; color: grey">( View on map )</span>
+        </div>
+      </a>
+      <div class="header-card">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          shaperendering="geometricPrecision"
+          textrendering="geometricPrecision"
+          imagerendering="optimizeQuality"
+          fillrule="evenodd"
+          cliprule="evenodd"
+          viewBox="0 0 360 511.48"
+          width="80px"
+          height="80px"
+        >
+          <path
+            fill="#D0401B"
+            d="m144.83 306.61 151.45-26.08L360 429.51l-78.8-.9-64.75 52.53z"
+          ></path>
+          <path
+            fill="#F60"
+            d="m231.94 290.08-162.37 4.3L0 459.86l78.8-.91 64.75 52.53z"
+          ></path>
+          <path
+            fill="#F5C800"
+            d="M183.21.03c9.35-.4 16.72 2.86 24.15 7.59 9.44 5.98 20.06 17.8 33.17 25.3 18.45 10.54 52.61-4 70.11 21.99 10.21 15.16 10.69 27.04 11.45 38.78.82 12.67 3.04 24.32 16 41.47 21.47 28.38 25.94 47.27 14.88 66.96-7.54 13.42-23.41 20.88-27.09 29.38-7.81 18.09.83 31.72-9.87 52.81-7.43 14.62-18.89 24.26-34.16 29.18-12.88 4.14-25.8-1.85-36.1 2.48-18.12 7.61-31.48 25.3-45.89 29.77-5.57 1.73-11.11 2.58-16.65 2.54-5.53.04-11.08-.81-16.64-2.54-14.42-4.47-27.78-22.16-45.9-29.77-10.3-4.33-23.22 1.66-36.1-2.48-15.26-4.92-26.73-14.56-34.16-29.18-10.7-21.09-2.06-34.72-9.87-52.81-3.68-8.5-19.55-15.96-27.09-29.38-11.06-19.69-6.58-38.58 14.88-66.96 12.96-17.15 15.18-28.8 16-41.47.76-11.74 1.24-23.62 11.45-38.78 17.5-25.99 51.66-11.45 70.11-21.99 13.12-7.5 23.73-19.32 33.17-25.3 7.44-4.73 14.81-7.99 24.15-7.59z"
+          ></path>
+          <path
+            fill="#FFDD61"
+            d="M183.21.04c9.35-.41 16.71 2.86 24.15 7.58 9.44 5.98 20.06 17.8 33.17 25.3 14.67 8.38 39.28.91 57.54 10.56L91.95 314.9c-2.45-.2-4.92-.62-7.38-1.41-15.27-4.92-26.73-14.55-34.16-29.18-10.7-21.09-2.06-34.72-9.87-52.81-3.68-8.5-19.55-15.96-27.09-29.38-11.06-19.69-6.58-38.58 14.87-66.96 12.97-17.14 15.19-28.8 16.01-41.47.76-11.74 1.24-23.62 11.44-38.78 17.51-26 51.68-11.45 70.12-21.99 13.12-7.5 23.74-19.32 33.17-25.3C166.5 2.9 173.87-.37 183.21.04z"
+          ></path>
+          <path
+            fill="#E37E00"
+            d="M182.71 46.79c71.81 0 130.03 58.22 130.03 130.04 0 71.81-58.22 130.03-130.03 130.03-71.82 0-130.04-58.22-130.04-130.03 0-71.82 58.22-130.04 130.04-130.04z"
+          ></path>
+          <path
+            fill="#fff"
+            d="M182.71 72.88c57.41 0 103.94 46.54 103.94 103.95 0 57.41-46.53 103.94-103.94 103.94S78.76 234.24 78.76 176.83 125.3 72.88 182.71 72.88z"
+          ></path>
+          <path
+            fill="#EDEDED"
+            d="M182.71 72.88c27.48 0 52.49 10.67 71.07 28.09l-127.44 163.2c-4.62-2.98-8.99-6.33-13.07-9.99-21.18-19.02-34.51-46.63-34.51-77.35 0-57.41 46.54-103.95 103.95-103.95z"
+          ></path>
+          <path
+            fillrule="nonzero"
+            d="M221.66 228.94h-77.9v-26.98h25.09v-44.68l-25.09 2.02v-26.98l33.85-8.76h26.65v78.4h17.4z"
+          ></path>
+        </svg>
+        <p>PRIZE POOL ₹ 95,000</p>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h2>STRUCTURE</h2>
+      </div>
+      <div class="section-content">
+        <div class="content-para">
+          <h3>Team</h3>
+          <p>Maximum 4 participants per team.</p>
+        </div>
+        <div class="content-para">
+          <h3>Registration Fee</h3>
+          <p>₹ 299/- per team</p>
+        </div>
+        <div class="content-para">
+          <h3>Round 1 (Elimination Round):</h3>
+          <p>
+            Participants will be evaluated on the efficiency and architecture of
+            their solution in collecting and interpreting data for the assigned
+            problem statement. The exact evaluation metrics for these solutions
+            will be provided along with the problem statements.
+          </p>
+        </div>
+        <div class="content-para">
+          <h3>Round 2:</h3>
+          <p>
+            There will be 1 winner per problem statement. Prize money given to
+            winning teams will differ with respect to problem statement chosen.
+          </p>
+        </div>
+        <div class="content-para">
+          <h3>Winning Criteria</h3>
+          <p>
+            In this round, the final applications created by the teams will be
+            judged on their overall functionality, innovation, UI/UX and
+            performance.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section problem-statements">
+      <div class="section-title">
+        <h2>PROBLEM-STATEMENTS</h2>
+        <p>There are 2 problem statements named <b>GOLD</b> & <b>SILVER</b>.</p>
+      </div>
+      <div class="problem-statement">
+        <h3>GOLD PROBLEM STATEMENT</h3>
+        <p id="actual-statement">
+          Develop an innovative AI based news aggregator application customized
+          explicitly for strategic & geopolitical significance (Defence
+          centric).
+        </p>
+        <div class="technical-details" id="nice-headers">
+          <h4>Technical Details</h4>
+          <div class="technical-details-content" style="text-align: start">
+            <p
+              style="text-align: center; line-height: 1.3rem; margin-top: 20px"
+            >
+              Participants are required to design and implement an end to end
+              application which delivers to the following technical pointers:
+            </p>
+            <ol>
+              <li>
+                AI based web/mobile news aggregator application trained
+                specifically for strategic content
+              </li>
+              <li>
+                The system should have the capability to learn from the users
+                likes and interests and pick news from user's specific
+                preferential domestic or foreign based online news articles.
+              </li>
+              <li>
+                The application should provide the user with an input field to
+                include their interests, sub domains and specific keywords,
+                which is used and checked according to relevance across the
+                different sites. NLP techniques can be used to analyze and
+                understand the content of the articles, which includes
+                identifying key topics, keywords, entities, topic modeling etc.
+                to generate concise, coherent, fluent and relevant summary (150
+                words or less) of the news article along with a word cloud,
+                topic modeling and sentiment analysis in that context.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="technical-deliverables" id="nice-headers">
+          <h4>Technical Deliverables</h4>
+          <div class="technical-details-content">
+            <ul>
+              <li>
+                Data collection through web scraping, followed by aggregation to
+                collate a Defence centric database repository of newsfeed
+                articles/RSS feeds containing latest and relevant information
+                explicitly in strategic and geopolitical context [should include
+                both domestic and foreign sources without any bias].
+              </li>
+              <li>
+                Using NLP based techniques to understand the user's keywords and
+                query (input). It should have capability to analyze and
+                understand the context and content of the database and deliver
+                the most relevant insights pertaining to the user requirements.
+              </li>
+              <li>
+                Machine Learning algorithms and Recommendation system to cater
+                to user profiling for personal preferences and interests
+                integrated with the recommendation engine to deliver those
+                insights.
+              </li>
+              <li>
+                An user interaction system to refine recommendations and
+                functionality to provide feedback.
+              </li>
+              <li>
+                A functional UI in form of application (webapp and mobile app)
+                integrated with the backend to fullfill the deliverables and
+                enhance user's overall experience.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="problem-statement problem-statement2">
+        <h3>SILVER PROBLEM STATEMENT</h3>
+        <p id="actual-statement">
+          Develop an innovative text summarization tool that can efficiently
+          process and summarize handwritten texts, all while operating offline.
+        </p>
+        <div
+          class="technical-details"
+          style="margin: 30px 0px"
+          id="nice-headers"
+        >
+          <h4>Technical Details</h4>
+          <div class="technical-details-content" style="text-align: start">
+            <p
+              style="text-align: center; line-height: 1.3rem; margin-top: 20px"
+            >
+              Participants are required to design and implement a text
+              summarization tool that meets the following technical
+              specifications :
+            </p>
+            <ol>
+              <li>
+                Handwriting Recognition: Implement an OCR (Optical Character
+                Recognition) system capable of accurately converting handwritten
+                text into digital text. The system should handle diverse
+                handwriting styles and formats.
+              </li>
+              <li>
+                Summarization: Develop a summarization algorithm using a NLP
+                algorithm or language model that can generate concise and
+                contextually relevant summaries from the digitized text.
+              </li>
+              <li>
+                Offline Functionality: Ensure the entire process, from OCR to
+                summarization, operates offline to maintain privacy and
+                accessibility in areas with no internet connectivity.
+              </li>
+              <li>
+                Resource Efficiency: Optimize the tool to run on local devices
+                with min. RAM 16 GB and on portable systems.
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="technical-deliverables" id="nice-headers">
+          <h4>Technical Deliverables</h4>
+          <div class="technical-details-content">
+            <ul>
+              <li>
+                Accuracy: The OCR system should have high accuracy in
+                recognizing various handwriting styles.
+              </li>
+              <li>
+                Coherence: Summaries should be coherent, retaining the essential
+                information and context of the original text.
+              </li>
+              <li>
+                Efficiency: The tool should be lightweight and efficient, with
+                minimal latency in processing and summarizing text. User
+                Interface: Develop a user-friendly interface that allows easy
+                input of handwritten texts and displays the summarized output
+                clearly.
+              </li>
+              <li>
+                Language Support: Only English File Formats: Multimodal (images,
+                pdf, text, word, excel documents, json, xml etc.)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section timeline">
+      <div class="section-title">
+        <h2>TIMELINE</h2>
+      </div>
+      <div class="section-content">
+        <ul>
+          <li>14th Oct – Problem statements will be released</li>
+          <li>
+            17th Oct – 23:59pm: First abstract submission deadline, which will
+            be a presentation on the problem statement.
+          </li>
+          <li>18th Oct – 6pm: Results of Round 1 will be announced.</li>
+          <li>
+            18th Oct – 6pm: After the result, the 2nd round starts and will
+            continue until 19th Oct, 6pm (a complete 1-day hackathon) – Final
+            round submissions should be working products. The timings of the
+            submission are flexible.
+          </li>
+          <li>20th Oct – 12pm: Results will be out. Winners announced.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h2>ELIMINATION CRITERIA</h2>
+      </div>
+      <div class="section-content">
+        <div class="content-para para1">
+          <span class="h3-elem"><h3>For Elimination Round</h3></span>
+          <div class="subheading-elimination">
+            <h4>OCR models for text recognition -</h4>
+            <ol>
+              <li>Presentation on problem statement and approach - 25%</li>
+              <li>Solution architecture and dataflow - 35%</li>
+              <li>
+                Minimum viable product - 40% (CER - 5 to 7, WER - 15% to 25%)
+              </li>
+            </ol>
+          </div>
+          <div class="subheading-elimination">
+            <h4>Web scrapping quality and Sentiment Analysis -</h4>
+            <ol>
+              <li>Presentation on problem statement and approach - 25%</li>
+              <li>Solution architecture and dataflow - 35%</li>
+              <li>
+                Minimum viable product - 40% (Dataset should from be atleast 10
+                sources)
+              </li>
+              <li>
+                Summarised Sentiment Analysis - Positive and Negative from
+                different data sources
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="content-para para1">
+          <span class="h3-elem"><h3>For Final Round</h3></span>
+          <div class="subheading-elimination">
+            <h4>OCR and Text Summarization together -</h4>
+            <ol>
+              <li>Deliverables - 40%</li>
+              <li>
+                Functional product - 60% (Overall Functionality - 50%,
+                Aesthetics - 10%, Performance - 40%)
+              </li>
+            </ol>
+          </div>
+          <div class="subheading-elimination">
+            <h4>OCR models for text recognition -</h4>
+            <ol>
+              <li>Deliverables - 40%</li>
+              <li>
+                Functional product - 60% (Overall Functionality - 40%,
+                Aesthetics & Innovation- 30%, Performance - 30%)
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-title">
+        <h2>RULES</h2>
+      </div>
+      <div class="section-content">
+        <ol id="rules-container">
+          <li class="rule">
+            Neurohack is an online multi-stage event that will be conducted for
+            2-3 days.
+          </li>
+          <li class="rule">
+            There is no restriction on its participation; participants can
+            participate from anywhere in the world.
+          </li>
+          <li class="rule">
+            Two students from different colleges can be a part of the same team.
+            However, one person cannot be a part of multiple teams for the same
+            event.
+          </li>
+          <li class="rule">
+            Decisions taken by the judges and organizers will be considered
+            final and binding to all.
+          </li>
+          <li class="rule">
+            Teams who do not register will not be eligible for prizes, and their
+            solution will not be taken under consideration.
+          </li>
+          <li class="rule">Participants will have to share their code.</li>
+          <li class="rule">
+            Plagiarized solutions will not be considered. Teams will be
+            disqualified if found in any plagiarism check.
+          </li>
+          <li class="rule">
+            Rules and criteria may be changed without any prior intimation.
+            Participants are requested to check the MindSpark regularly for
+            updates.
+          </li>
+        </ol>
+      </div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+  <script>
+    VANTA.WAVES({
+      el: "#vanta-canvas",
+      mouseControls: false,
+      touchControls: false,
+      gyroControls: false,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: 0x000018,
+      shininess: 17.0,
+      waveHeight: 9.5,
+      zoom: 0.5,
+    });
+    let lastUpdate = 0;
+    const fpsLimit = 30;
+
+    function updateAnimation(timestamp) {
+      if (timestamp - lastUpdate > 1000 / fpsLimit) {
+        lastUpdate = timestamp;
+        vantaEffect.update(); // Trigger update if applicable
+      }
+      requestAnimationFrame(updateAnimation);
+    }
+
+    requestAnimationFrame(updateAnimation);
+  </script>
+  <script src="./scripts/script.js"></script>
+</html>
